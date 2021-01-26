@@ -48,7 +48,8 @@ sudo emerge -u \
      x11-libs/libX11 \
      x11-libs/wxGTK:3.0 \
      ncurses-compat \
-     protobuf-python
+     protobuf-python \
+     =dev-lang/python-2*
 
 echo "Installing repo"
 mkdir ~/bin
